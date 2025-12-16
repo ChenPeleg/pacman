@@ -1,0 +1,25 @@
+# Pacman Game Plan
+
+## Goal
+Build a classic Pacman game as a static site using vanilla web technologies.
+
+## Tech Stack
+- **HTML5**: Game container (Canvas) and UI.
+- **CSS3**: Retro styling, animations, responsive layout.
+- **JavaScript (ES6+)**: Game logic, rendering, entity management.
+
+## File Structure
+- `index.html`: Entry point.
+- `css/style.css`: Styles.
+- `js/`:
+  - `game.js`: Main game loop and state management.
+  - `board.js`: Level layout and tile rendering.
+  - `entities.js`: Pacman and Ghost classes.
+  - `utils.js`: Helper functions (collision, etc.).
+
+## Development Phases
+1. **Foundation**: Setup project structure, implement grid/tile rendering (walls, dots).
+2. **Pacman**: Implement movement, input handling, and wall collision.
+3. **Ghosts**: Add ghost entities with basic random movement.
+4. **Game Logic**: Dot collection, scoring, win/loss states.
+5. **AI & Polish**: Improved ghost pathfinding, animations, sound effects, UI (Start/Game Over screens).
